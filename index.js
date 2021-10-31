@@ -1,6 +1,8 @@
 /*
   An npm JavaScript library for front end web apps. Implements a minimal
   Bitcoin Cash wallet.
+
+  test
 */
 
 /* eslint-disable no-async-promise-executor */
