@@ -1,6 +1,6 @@
 {
   "name": "@psf/slp-validate2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates SLP TXIDs - alternative implementation of slp-validate",
   "main": "index.js",
   "scripts": {
