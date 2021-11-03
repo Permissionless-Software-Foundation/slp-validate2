@@ -33,7 +33,6 @@
   },
   "repository": "Permissionless-Software-Foundation/slp-validate2",
   "dependencies": {
-    "@psf/bch-js": "4.20.21",
     "apidoc": "0.25.0"
   },
   "devDependencies": {
@@ -65,5 +64,8 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
+  },
+  "peerDependencies": {
+    "@psf/bch-js": "4.20.25"
   }
 }
