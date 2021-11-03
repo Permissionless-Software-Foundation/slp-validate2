@@ -48,5 +48,18 @@ describe('#dag.js', () => {
         )
       })
     })
+
+    describe('#getDag', () => {
+      it('should get a txid list for the first MINT tx', async () => {
+        const txid =
+          'ee9d3cf5153599c134147e3fac9844c68e216843f4452a1ce15a29452af6db34'
+
+        const result = await uut.getDag(txid)
+        // console.log(`result: ${JSON.stringify(result, null, 2)}`)
+
+        assert.isArray(result)
+        assert.equal(result.length, 2)
+      })
+    })
   })
 })
